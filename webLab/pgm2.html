@@ -1,0 +1,79 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML 2</title>
+</head>
+
+<body>
+    <!-- this div contains images -->
+    <div class="images" id="photos">
+        <img src="logo_dsc.png" alt="this is the logo" class="picture" id="logo">
+        <img src="DSCE.jpg" alt="building" class="picture" id="dsce_photo">
+    </div>
+
+    <hr>
+
+    <!-- this div contains anchor tag -->
+    <div>
+        <button type="button" onclick="location.href = 'path_to_first_html_file';">
+            Next Page
+        </button>
+        <ul>
+            <li><a href="www.google.com">Google</a></li>
+            <li><a href="www.bing.com">Bing</a></li>
+            <li><a href="www.duckduckgo.com">duckduckgo</a></li>
+        </ul>
+    </div>
+
+    <hr>
+    <!-- this dib contains form -->
+    <div>
+        <h2>FORM</h2>
+        <form>
+            <label for="fname">First name:</label>
+            <input type="text" name="fname">
+
+            <label for="lname">Last name:</label>
+            <input type="text" name="lname"> 
+            <br>
+
+            <input type="radio" id="html" name="lang" value="HTML">
+            <label for="html">HTML</label>
+
+            <input type="radio" id="css" name="lang" value="CSS">
+            <label for="css">CSS</label>
+
+            <input type="radio" id="javascript" name="lang" value="JavaScript">
+            <label for="javascript">JavaScript</label>
+            <br>
+
+            <input type="checkbox" id="vehicle1" name="dose1" value="dose1">
+            <label for="vehicle1"> dose1</label>
+
+            <input type="checkbox" id="dose2" name="dose2" value="dose2">
+            <label for="vehicle2">dose2</label>
+
+            <input type="checkbox" id="booster" name="booster" value="booster">
+            <label for="vehicle3">booster</label> 
+            <br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </div>
+
+    <hr>
+
+    <!-- this div contains the multimedia files tag -->
+    <div>
+        <video width="320" height="240" controls>
+            <source src="earth.mp4" type="video/mp4">
+        </video>
+        <br>
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+</body>
+
+</html>
